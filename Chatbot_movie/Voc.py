@@ -3,6 +3,7 @@ PAD_token = 0  # Used for padding short sentences
 SOS_token = 1  # Start-of-sentence token
 EOS_token = 2  # End-of-sentence token
 
+# Vocabulary
 class Voc:
     def __init__(self, name):
         self.name = name
